@@ -1,0 +1,24 @@
+@import "bootstrap.css";
+.part1{
+position: absolute;
+text-align: center;
+font-weight:300px;
+top:120px;
+bottom: 100px;
+color: white;
+}
+.part2{
+text-align: center;
+}
+.part3{
+position: relative;
+text-align: center;
+color:white;
+bottom:350px;
+}
+h3{
+font-size:40px;
+}
+h2{
+font-weight:
+}
