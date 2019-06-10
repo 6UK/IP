@@ -1,24 +1,228 @@
-@import "bootstrap.css";
-.part1{
-position: absolute;
-text-align: center;
-font-weight:300px;
-top:210px;
-bottom: 100px;
-color: white;
+.container {
+
+
 }
-.part2{
-text-align: center;
+.block1 {
+  position: relative;
+    text-align: center;
 }
-.part3{
-position: relative;
-text-align: center;
-color:white;
-bottom:221px;
+.block2 {
+  position: relative;
+    text-align: center;
 }
-h3{
-font-size:40px;
+
+.image1 {
+  position: absolute;
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
-h2{
-font-weight:
+#blue {
+  padding: 20px;
+  transform: translate(1%, 14%);
 }
+.dot {
+   transform: translate(0%, 350%);
+}
+.image2 {
+  position: absolute;
+    transform: translate(15%, -140%);
+    color: white;
+}
+.serviceicons {
+  position: relative;
+    text-align: center;
+
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 5%;
+   right: 0;
+   height: 100%;
+   width: 90%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+ .line{
+     position: absolute;
+     top: 10%;
+     width: 100%;
+     height: 80%;
+     background: none;
+     border: 3px solid white;
+ }
+ .overlay-text {
+   color: white;
+   font-size: 24px;
+   font-weight: bold;
+   position: absolute;
+   text-transform: uppercase;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+.arm1{
+  display: none;
+}
+
+.arm2{
+  display: none;
+}
+
+.arm3{
+  display: none;
+}
+
+.image3 {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.contain {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.icons {
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+#contact {
+  background: url("images/c_image.jpg");
+}
+
+
+
+ #footer {
+    text-align: center;
+  }
