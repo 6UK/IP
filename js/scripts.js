@@ -1,47 +1,149 @@
-$(document).ready(function(){
-$(".state1").click(function(){
-$(".state1").hide();
-$(".design").show();
-$(".arm1").toggle();
+$(document).ready(function() {
+
+  $(".whatwedo p").hide();
+
+  $('.whatwedo img.one').click(function() {
+    $(".whatwedo img.one").toggle();
+    $(".whatwedo p.one").toggle();
+  });
+  $('.whatwedo p.one').click(function() {
+    $(".whatwedo img.one").toggle();
+    $(".whatwedo p.one").toggle();
+  });
+  $('.whatwedo img.two').click(function() {
+    $(".whatwedo img.two").toggle();
+    $(".whatwedo p.two").toggle();
+  });
+  $('.whatwedo p.two').click(function() {
+    $(".whatwedo img.two").toggle();
+    $(".whatwedo p.two").toggle();
+  });
+  $('.whatwedo img.three').click(function() {
+    $(".whatwedo img.three").toggle();
+    $(".whatwedo p.three").toggle();
+  });
+  $('.whatwedo p.three').click(function() {
+    $(".whatwedo img.three").toggle();
+    $(".whatwedo p.three").toggle();
+  });
+
+  $('.whatwedo h3').click(function() {
+    $(".whatwedo img.one").toggle();
+    $(".whatwedo p.one").toggle();
+  });
+  $('.whatwedo h3').click(function() {
+    $(".whatwedo img.one").toggle();
+    $(".whatwedo p.one").toggle();
+  });
+
+  $('.wBox.1').hover(
+    function() {
+      $(".wBox.1 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.1 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
+
+  $('.wBox.2').hover(
+    function() {
+      $(".wBox.2 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.2 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
+
+  $('.wBox.3').hover(
+    function() {
+      $(".wBox.3 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.3 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
+
+  $('.wBox.4').hover(
+    function() {
+      $(".wBox.4 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.4 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
+
+  $('.wBox.5').hover(
+    function() {
+      $(".wBox.5 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.5 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
+
+  $('.wBox.6').hover(
+    function() {
+      $(".wBox.6 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.6 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
+
+  $('.wBox.7').hover(
+    function() {
+      $(".wBox.7 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.7 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
+
+  $('.wBox.8').hover(
+    function() {
+      $(".wBox.8 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.8 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
+
+
+  $('#submitButton').click(function(event) {
+    event.preventDefault();
+    var name = $('#id_number2').val();
+    if ($('#id_number2').val().length > 3) {
+      alert(name + ", thank you! your submission is well received.");
+    } else {
+      alert("Error");
+    };
+
+  });
+
+
+
 });
-
-$(".arm1").click(function(){
-$(".state1").show();
-$(".arm1").toggle();
-});
-
-
-
-$("#state2").click(function(){
-$("#state2").hide();
-$("#development").show();
-$(".arm2").toggle();
-});
-
-$(".arm2").click(function(){
-$("#state2").show();
-$(".arm2").toggle();
-});
-
-
-
-$("#state3").click(function(){
-$("#state3").hide();
-$("#development").show();
-$(".arm3").toggle();
-});
-
-$(".arm3").click(function(){
-$("#state3").show();
-$(".arm3").toggle();
-});
-});
-
-
-
-function returnValue()
-{
-   var name = document.getElementById("name").value;
- alert(name + ' message recieved! Thank you For contacting us!');
- return false;
-}

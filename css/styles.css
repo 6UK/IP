@@ -1,179 +1,100 @@
-.container {
-width:50%;
-
-
-}
-.block1 {
-  position: relative;
-    text-align: center;
-}
-.block2 {
-  position: relative;
-    text-align: center;
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #f0f8ff;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.image1 {
-  position: absolute;
-  top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-#blue {
-  padding: 20px;
-  transform: translate(1%, 14%);
-}
-.dot {
-   transform: translate(0%, 350%);
-}
-.image2 {
-  position: absolute;
-    transform: translate(15%, -140%);
-    color: white;
-}
-.serviceicons {
-  position: relative;
-    text-align: center;
-
-}
-
-.overlay {
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 5%;
-   right: 0;
-   height: 100%;
-   width: 90%;
-   opacity: 0;
-   transition: .5s ease;
-   background-color: rgba(0, 0, 0, 0.5);
- }
- .line{
-     position: absolute;
-     top: 10%;
-     width: 100%;
-     height: 80%;
-     background: none;
-     border: 3px solid white;
- }
- .overlay-text {
-   color: white;
-   font-size: 24px;
-   font-weight: bold;
-   position: absolute;
-   text-transform: uppercase;
-   top: 50%;
-   left: 50%;
-   -webkit-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
-   text-align: center;
- }
-.arm1{
-  display: none;
-}
-
-.arm2{
-  display: none;
-}
-
-.arm3{
-  display: none;
-}
-
-.image3 {
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
-}
-
-.contain {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+body, html {
   height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
 }
 
-.container:hover .overlay {
-  opacity: 1;
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.text {
+.header {
+  padding: 60px;
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  text-align: center;
   color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
-.icons {
+
+.services {
+  padding: 60px;
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  text-align: center;
+  color: white;
+}
+
+.about {
   text-align: center;
 }
-.fa {
+
+.whatwedo {
+  padding: 60px;
+  text-align: center;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.contacts {
+  padding: 60px;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.contact_inputs_3 {
+  border: 1px solid #fff;
+  width: 100%;
+}
+
+.contact_inputs_1, .contact_inputs_2 {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.contacts .btn {
+  background-color: #0ff;
+  margin-left: 80%;
+  border-radius: 0;
+}
+
+.contacts .btn:hover {
+  background: #2199e8;
+}
+
+.footer {
+  margin: 20px;
   padding: 20px;
-  font-size: 30px;
-  width: 55px;
   text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 100%;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.wBox {
+  position: relative;
 }
 
-
-#contact{
-
-}
-
- #footer {
-    text-align: center;
-  }
-.form{
-background-image: url(../images/c_image.jpg);
+.wBox h4 {
+  position: absolute;
+  text-align: center;
+  color: black;
+  opacity: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  line-height: 10;
 }
